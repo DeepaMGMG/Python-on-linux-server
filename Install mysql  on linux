@@ -1,0 +1,27 @@
+Install dependency libraries on root
+=============================
+sudo apt-get install python3.12-dev
+sudo apt-get install libssl-dev
+sudo apt-get install default-libmysqlclient-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+sudo apt-get install pkg-config
+sudo apt-get install build-essential
+
+Additionalyy
+sudo apt install libssl1.1 libssl1.1=1.1.1f-1ubuntu2 libssl-dev
+
+
+Install mysql libraary and connectors on projects virtaul environment
+==================================================================
+Install these on virual environment
+pip3 install mysql <=== this will not work unleass resolved using above commands.
+pip install mysqlclient
+pip install mysql-connector-python
+
+
+Login to mysql db from linux server
+========================
+mysql -h ip_address -P 3306 -u username -p
+mysql -h 15.207.141.145 -P 3306 -u app -p
